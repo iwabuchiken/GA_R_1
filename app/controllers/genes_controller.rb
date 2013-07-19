@@ -98,6 +98,8 @@ class GenesController < ApplicationController
             
             admin.current_generation = 1
             admin.num_of_gene_elements = 6
+            
+            admin.save
         
         else
             
@@ -138,7 +140,7 @@ class GenesController < ApplicationController
     end#    def generate_genes
 
     def remove_all_genes
-
+        aa
         
     end#    def remove_all_genes
     
