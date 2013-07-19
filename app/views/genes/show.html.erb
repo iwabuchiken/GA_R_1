@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Suited:</b>
+  <%= @gene.suited %>
+</p>
+
+<p>
+  <b>Gene:</b>
+  <%= @gene.gene %>
+</p>
+
+<p>
+  <b>Generation:</b>
+  <%= @gene.generation %>
+</p>
+
+<p>
+  <b>In generation serial:</b>
+  <%= @gene.in_generation_serial %>
+</p>
+
+
+<%= link_to 'Edit', edit_gene_path(@gene) %> |
+<%= link_to 'Back', genes_path %>

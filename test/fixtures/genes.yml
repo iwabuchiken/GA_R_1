@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  suited: 1
+  gene: MyText
+  generation: 1
+  in_generation_serial: 1
+
+two:
+  suited: 1
+  gene: MyText
+  generation: 1
+  in_generation_serial: 1
