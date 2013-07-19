@@ -57,15 +57,21 @@ g p origin master && g p heroku master
 
 heroku open
 
-[B1 2013/05/17 12:23:23]----------------------------
-rails generate scaffold Gene suited:integer gene:text generation:integer in_generation_serial:integer
-rails generate scaffold Admin current_generation:integer num_of_gene_elements:integer
+[19/07/2013 10:53:51]----------------------------
+#rails generate scaffold Gene suited:integer gene:text generation:integer in_generation_serial:integer
+
+#bundle exec rake db:migrate
+
+#g p origin master && g p heroku master
+
+#heroku run rake db:migrate
+
+#rails generate scaffold Admin current_generation:integer num_of_gene_elements:integer
 
 bundle exec rake db:migrate
 
-#g p origin master && g p heroku master && heroku run rake db:migrate
+g p origin master && g p heroku master && heroku run rake db:migrate
 
-g p origin master && g p heroku master
 
 [B2_v-2.1-e2 2013/05/28 16:39:26]----------------------------
 rails generate controller admin main sub1 sub2

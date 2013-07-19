@@ -1,4 +1,6 @@
 GAR1::Application.routes.draw do
+  resources :admins
+
     resources :genes
 
     root to: "genes#index"
