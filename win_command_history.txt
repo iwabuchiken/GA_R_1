@@ -68,7 +68,7 @@ heroku open
 
 #rails generate scaffold Admin current_generation:integer num_of_gene_elements:integer
 
-bundle exec rake db:migrate
+#bundle exec rake db:migrate
 
 g p origin master && g p heroku master && heroku run rake db:migrate
 

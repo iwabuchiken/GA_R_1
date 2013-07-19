@@ -1,9 +1,13 @@
+require File.expand_path(File.dirname(__FILE__) + '/genes_cont_helper.rb')
+
 class GenesController < ApplicationController
   # GET /genes
   # GET /genes.json
   def index
     @genes = Gene.all
-
+    
+    @message = message
+    
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @genes }
@@ -80,4 +84,62 @@ class GenesController < ApplicationController
       format.json { head :no_content }
     end
   end
-end
+
+    def generate_genes
+        
+        # Get => Generation serial
+        admin = Admin.first
+        
+        generation_serial = -1
+        
+        if admin == nil
+            
+            admin = Admin.new
+            
+            admin.current_generation = 1
+            admin.num_of_gene_elements = 6
+        
+        else
+            
+            admin.current_generation += 1
+            
+            admin.update_attributes(
+                        :current_generation => admin.current_generation)
+
+        end
+        
+        # if admin != nil and admin.current_generation != nil
+#             
+            # generation_serial = admin.current_generation
+#             
+        # else
+#             
+            # generation_serial = 5
+#             
+        # end
+        
+        # Generate => Genes
+        4.times do |i|
+            
+            gene = Gene.new
+            
+            gene.generation = admin.current_generation
+            gene.in_generation_serial = i + 1
+            
+            gene.save
+            
+        end
+        
+        
+        flash['notice'] = "Genes generated"
+        
+        redirect_to :controller => 'genes', :action => 'index'
+        
+    end#    def generate_genes
+
+    def remove_all_genes
+
+        
+    end#    def remove_all_genes
+    
+end#class GenesController < ApplicationController

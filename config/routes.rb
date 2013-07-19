@@ -1,9 +1,14 @@
 GAR1::Application.routes.draw do
   resources :admins
 
+    # Gene operations
+    get "genes/generate_genes"
+    get "genes/remove_all_genes"
+
     resources :genes
 
     root to: "genes#index"
+    
     
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,4 +1,9 @@
+<!-- REF http://d.hatena.ne.jp/kiyo560808/20110913/1315882887 -->
+<p id="notice"><%= flash['notice'] %></p>
+
 <h1>Listing genes</h1>
+
+<%= @message %>
 
 <table>
   <tr>
@@ -27,3 +32,8 @@
 <br />
 
 <%= link_to 'New Gene', new_gene_path %>
+
+<hr />
+
+<%= render :partial => "genes/partial_genes/genes_footer" %>
+<%#= render :partial => "partial_genes/genes_footer" %>
