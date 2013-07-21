@@ -6,7 +6,7 @@ class GenesController < ApplicationController
   def index
     @genes = Gene.all
     
-    @message = message
+    #@message = message
     
     respond_to do |format|
       format.html # index.html.erb
@@ -140,8 +140,27 @@ class GenesController < ApplicationController
     end#    def generate_genes
 
     def remove_all_genes
-        aa
+        # Remove genes
+        genes = Gene.all()
         
+        genes.each do |gene|
+               
+               gene.destroy
+        
+        end#        genes.each do
+     
+        # Reset generation number
+        admin = Admin.first()
+        
+        admin.current_generation = 0
+        
+        admin.save
+        
+        flash['notice'] = "Genes removed"
+        
+        redirect_to :controller => 'genes', :action => 'index'
+     
+     
     end#    def remove_all_genes
     
 end#class GenesController < ApplicationController
