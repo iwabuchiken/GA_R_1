@@ -1,6 +1,8 @@
 #require File.expand_path(File.dirname(__FILE__) + '/genes_cont_helper.rb')
 #require File.expand_path(File.dirname(__FILE__) + '/cont_helpers/genes_cont_helper.rb')
 
+require 'genes_cont_helper'
+
 class GenesController < ApplicationController
   # GET /genes
   # GET /genes.json

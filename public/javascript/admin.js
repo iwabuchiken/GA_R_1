@@ -40,6 +40,12 @@ $(document).ready(function(){
     
   });
   
+  $(".show_button").click(function(){
+	  
+	   alert("SHOW");
+	  
+  });
+  
   $("#item_refactor_table_word_lists").click(function(){
 
     // alert($(this).css("value"));
