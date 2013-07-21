@@ -42,7 +42,7 @@ $(document).ready(function(){
   
   $(".show_button").click(function(){
 	  
-	   alert("SHOW!!%%%");
+	   alert("SHOW!!#######");
 	  
   });
   
