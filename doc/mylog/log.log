@@ -1,0 +1,185 @@
+[begin]------------------------=
+[2013/07/21 13:18:27] [C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1/app/controllers/admins_controller.rb: 18]
+index
+File size=0------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:28:51] [C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1/app/controllers/admins_controller.rb: 18]
+index
+File size=212------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:30:50] [C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1/app/controllers/admins_controller.rb: 18]
+index
+File size=426------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:30:50] [C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1/app/controllers/admins_controller.rb: 19]
+
+File size=640------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:32:47] [C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1/app/controllers/admins_controller.rb: 18]
+index
+File size=849------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:32:47] [C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1/app/controllers/admins_controller.rb: 19]
+config.root=
+File size=1063------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:32:47] [C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1/app/controllers/admins_controller.rb: 20]
+Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=1285------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:37:10] [: 18]
+index
+File size=1570------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:37:10] [: 19]
+config.root=
+File size=1689------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:37:10] [: 20]
+Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=1815------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:38:41] [: 18]
+index
+File size=2004------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:38:41] [: 19]
+config.root=
+File size=2123------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:38:41] [: 20]
+Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=2249------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:40:45] [C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1/app/controllers/admins_controller.rb: 18]
+file_label=index
+File size=2438------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:40:45] [C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1/app/controllers/admins_controller.rb: 19]
+file_label=config.root=
+File size=2664------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:40:45] [C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1/app/controllers/admins_controller.rb: 20]
+file_label=Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=2897------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:42:48] [app/controllers/admins_controller.rb: 18]
+index
+File size=3193------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:42:48] [app/controllers/admins_controller.rb: 19]
+config.root=
+File size=3348------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 13:42:48] [app/controllers/admins_controller.rb: 20]
+Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=3510------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:06:55] [app/controllers/admins_controller.rb: 18]
+index
+File size=3735------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:06:55] [app/controllers/admins_controller.rb: 19]
+config.root=
+File size=3890------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:06:55] [app/controllers/admins_controller.rb: 20]
+Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=4052------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:09:20] [app/controllers/admins_controller.rb: 18]
+index
+File size=4277------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:09:20] [app/controllers/admins_controller.rb: 19]
+config.root=
+File size=4432------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:09:20] [app/controllers/admins_controller.rb: 20]
+Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=4594------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:11:00] [app/controllers/admins_controller.rb: 18]
+index
+File size=4819------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:11:00] [app/controllers/admins_controller.rb: 19]
+config.root=
+File size=4974------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:11:00] [app/controllers/admins_controller.rb: 20]
+Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=5136------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:12:37] [app/controllers/admins_controller.rb: 18]
+index
+File size=5361------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:12:37] [app/controllers/admins_controller.rb: 19]
+config.root=
+File size=5516------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:12:37] [app/controllers/admins_controller.rb: 20]
+Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=5678------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:13:14] [app/controllers/admins_controller.rb: 18]
+index
+File size=5903------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:13:14] [app/controllers/admins_controller.rb: 19]
+config.root=
+File size=6058------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:13:14] [app/controllers/admins_controller.rb: 20]
+Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=6220------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:13:29] [app/controllers/admins_controller.rb: 18]
+index
+File size=6445------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:13:29] [app/controllers/admins_controller.rb: 19]
+config.root=
+File size=6600------------------------=[end]
+
+[begin]------------------------=
+[2013/07/21 14:13:29] [app/controllers/admins_controller.rb: 20]
+Rails.root.to_s=C:/WORKS/WS/WS_Android_20130619_090924/GeneticAlgo_R/GA_R_1
+File size=6762------------------------=[end]
+

@@ -1,0 +1,39 @@
+<div>
+	<a name="log_top"></a>
+</div>
+
+<input type="button" value="Show log"   id="show_button" /> |
+<!--
+	REF disabled http://html.eweb-design.com/0903_btn.html
+-->
+
+<input type="button" value="Hide log"   class="hide_button" disabled/>
+
+<div id="logs" style="display: none;">
+	<a href="#log_bottom">To log bottom</a>
+	<br />
+	
+	<% if @contentArray != nil %>
+		<% for i in 0..@contentArray.length - 1 %>
+		
+			<%= @contentArray[i] %><br />
+		
+		<% end %>
+
+	<% else %>
+		
+		<%= @content %>
+	
+	<% end %>		
+
+
+	<input type="button" value="Hide log"   class="hide_button" disabled/>
+	
+	
+</div>
+<div>
+	<a name="log_bottom"></a>
+</div>
+<div>
+	<a href="#log_top">To log top</a>
+</div>

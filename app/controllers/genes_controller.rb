@@ -1,4 +1,5 @@
-require File.expand_path(File.dirname(__FILE__) + '/genes_cont_helper.rb')
+#require File.expand_path(File.dirname(__FILE__) + '/genes_cont_helper.rb')
+#require File.expand_path(File.dirname(__FILE__) + '/cont_helpers/genes_cont_helper.rb')
 
 class GenesController < ApplicationController
   # GET /genes
@@ -6,7 +7,7 @@ class GenesController < ApplicationController
   def index
     @genes = Gene.all
     
-    #@message = message
+    @message = message
     
     respond_to do |format|
       format.html # index.html.erb

@@ -1,5 +1,8 @@
 <h1>Listing admins</h1>
 
+Message => <%= @message %><br />
+Message2 => <%= @message2 %><br />
+
 <table>
   <tr>
     <th>Current generation</th>
@@ -23,3 +26,6 @@
 <br />
 
 <%= link_to 'New Admin', new_admin_path %>
+
+<hr />
+<%= render :partial => "admins/partial_admin/admin_footer" %>
