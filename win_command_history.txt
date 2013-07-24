@@ -1,9 +1,9 @@
 a
 pushd C:\WORKS\WS\WS_Android_20130619_090924\GeneticAlgo_R\GA_R_1 && gitk
 
-a p && pushd C:\WORKS\WS\WS_Android_20130619_090924\GeneticAlgo_R\GA_R_1 && gitk
-
 a p && pushd C:\WORKS\WS\WS_Android_20130619_090924\GeneticAlgo_R\GA_R_1 && rails s --port 3001
+
+a p && pushd C:\WORKS\WS\WS_Android_20130619_090924\GeneticAlgo_R\GA_R_1 && gitk
 
 pushd C:\WORKS\WS\WS_Android_20130619_090924\GeneticAlgo_R\GA_R_1 && gitk
 
@@ -72,9 +72,7 @@ heroku open
 
 g p origin master && g p heroku master && heroku run rake db:migrate
 
-
-[B2_v-2.1-e2 2013/05/28 16:39:26]----------------------------
-rails generate controller admin main sub1 sub2
+bundle exec rake assets:precompile
 
 aa
 ============STORAGE============================
