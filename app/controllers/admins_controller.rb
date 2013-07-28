@@ -116,7 +116,18 @@ class AdminsController < ApplicationController
   # PUT /admins/1.json
   def update
     @admin = Admin.find(params[:id])
+    
+    #debug
+    write_log(
+            "@admin.genes_per_generation => #{@admin.genes_per_generation}",
+            __FILE__, __LINE__)    
+    
+    #debug  
+    write_log(
+            "admin[genes_per_generation] => #{params[:admin][:genes_per_generation]}",
+            __FILE__, __LINE__)
 
+      
     respond_to do |format|
       if @admin.update_attributes(params[:admin])
         format.html { redirect_to @admin, notice: 'Admin was successfully updated.' }
