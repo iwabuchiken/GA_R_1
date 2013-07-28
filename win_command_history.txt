@@ -1,9 +1,13 @@
 a
 pushd C:\WORKS\WS\WS_Android_20130619_090924\GeneticAlgo_R\GA_R_1 && gitk
 
+#Rails s
 a p && pushd C:\WORKS\WS\WS_Android_20130619_090924\GeneticAlgo_R\GA_R_1 && rails s --port 3001
 
 a p && pushd C:\WORKS\WS\WS_Android_20130619_090924\GeneticAlgo_R\GA_R_1 && gitk
+
+localhost:3001
+heroku open
 
 pushd C:\WORKS\WS\WS_Android_20130619_090924\GeneticAlgo_R\GA_R_1 && gitk
 
@@ -73,6 +77,11 @@ heroku open
 g p origin master && g p heroku master && heroku run rake db:migrate
 
 bundle exec rake assets:precompile
+
+[28/07/2013 13:36:37]----------------------------
+rails generate migration AddColumnNumOfGenesPerGenerationToAdmin
+
+bundle exec rake db:migrate
 
 aa
 ============STORAGE============================

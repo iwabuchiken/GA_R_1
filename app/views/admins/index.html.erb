@@ -7,6 +7,7 @@ Message2 => <%= @message2 %><br />
   <tr>
     <th>Current generation</th>
     <th>Num of gene elements</th>
+    <th>genes_per_generation</th>
     <th></th>
     <th></th>
     <th></th>
@@ -16,6 +17,7 @@ Message2 => <%= @message2 %><br />
   <tr>
     <td><%= admin.current_generation %></td>
     <td><%= admin.num_of_gene_elements %></td>
+    <td><%= admin.genes_per_generation %></td>
     <td><%= link_to 'Show', admin %></td>
     <td><%= link_to 'Edit', edit_admin_path(admin) %></td>
     <td><%= link_to 'Destroy', admin, confirm: 'Are you sure?', method: :delete %></td>

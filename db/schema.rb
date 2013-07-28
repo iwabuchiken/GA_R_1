@@ -11,13 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130719015837) do
+ActiveRecord::Schema.define(:version => 20130728043715) do
 
   create_table "admins", :force => true do |t|
     t.integer  "current_generation"
     t.integer  "num_of_gene_elements"
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
+    t.integer  "genes_per_generation"
   end
 
   create_table "genes", :force => true do |t|

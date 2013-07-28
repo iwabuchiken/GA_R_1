@@ -113,6 +113,21 @@ class GenesController < ApplicationController
 
         end
         
+        ###############################
+        # Number of genes per generation
+        ###############################
+        if admin.genes_per_generation == nil or \
+              
+              admin.genes_per_generation == ""
+              
+              num_of_genes = 4
+            
+        else
+              
+              num_of_genes = admin.genes_per_generation
+              
+        end
+
         # if admin != nil and admin.current_generation != nil
 #             
             # generation_serial = admin.current_generation
@@ -124,7 +139,8 @@ class GenesController < ApplicationController
         # end
         
         # Generate => Genes
-        4.times do |i|
+        num_of_genes.times do |i|
+        # 4.times do |i|
             
             gene = Gene.new
             
