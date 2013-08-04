@@ -89,8 +89,9 @@ class GenesController < ApplicationController
   end
 
     def generate_genes
-        
+        ###############################
         # Get => Generation serial
+        ###############################
         admin = Admin.first
         
         generation_serial = -1
@@ -128,17 +129,24 @@ class GenesController < ApplicationController
               
         end
 
-        # if admin != nil and admin.current_generation != nil
-#             
-            # generation_serial = admin.current_generation
-#             
-        # else
-#             
-            # generation_serial = 5
-#             
-        # end
+        ###############################
+        # Get: Number of gene elements
+        ###############################
+        if admin.num_of_gene_elements == nil or \
+              
+                admin.num_of_gene_elements == ""
+              
+            num_of_gene_elements = 6
+            
+        else
+              
+              num_of_gene_elements = admin.num_of_gene_elements
+              
+        end
         
+        ###############################
         # Generate => Genes
+        ###############################
         num_of_genes.times do |i|
         # 4.times do |i|
             
@@ -147,10 +155,22 @@ class GenesController < ApplicationController
             gene.generation = admin.current_generation
             gene.in_generation_serial = i + 1
             
+            ###############################
+            # Generate gene elements
+            ###############################
+            gene_elements = []
+            
+            num_of_gene_elements.times do
+            
+                gene_elements.push(rand(2))
+            
+            end
+            
+            gene.gene = gene_elements.join(" ")
+            
             gene.save
             
         end
-        
         
         flash['notice'] = "Genes generated"
         
