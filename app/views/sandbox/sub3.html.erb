@@ -13,11 +13,19 @@
 	<br />
 	
 	<!-- REF 'this.select()' http://stackoverflow.com/questions/4543236/onclick-select-all-text-in-text-field-rails answered Dec 28 '10 at 2:27 -->
-	<%= text_field :time, :calculate,
+	<%= text_field :timecal, :full,
 				{:size => '20',
 					:readonly => false,
 					:onmouseover => 'this.select()',
 					:value => @time_label} %>
+
+	<br />
+	
+	<%= text_field :timecal, :time,
+				{:size => '20',
+					:readonly => false,
+					:onmouseover => 'this.select()',
+					:value => @time_label_time} %>
 	
 
 <% end %>

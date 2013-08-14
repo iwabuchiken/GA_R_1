@@ -77,6 +77,7 @@ heroku open
 
 g p origin master && g p heroku master && heroku run rake db:migrate
 
+
 bundle exec rake assets:precompile
 
 [28/07/2013 13:36:37]----------------------------
@@ -96,6 +97,7 @@ rails generate controller Sandbox main sub1 sub2
 #REF skip http://stackoverflow.com/questions/8114866/create-rails-views-only-after-controllers-and-models-are-already-created answered Nov 13 '11 at 21:32
 rails generate controller Sandbox main sub1 sub2 sub3 --skip
 
+g p origin master && g p heroku master
 
 aa
 ============STORAGE============================
