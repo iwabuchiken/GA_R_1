@@ -92,6 +92,10 @@ rails generate controller SandBox main sub1 sub2
 []----------------------------
 rails generate controller Sandbox main sub1 sub2
 
+[14/08/2013 08:13:54]----------------------------
+#REF skip http://stackoverflow.com/questions/8114866/create-rails-views-only-after-controllers-and-models-are-already-created answered Nov 13 '11 at 21:32
+rails generate controller Sandbox main sub1 sub2 sub3 --skip
+
 
 aa
 ============STORAGE============================

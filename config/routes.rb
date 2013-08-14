@@ -5,6 +5,8 @@ GAR1::Application.routes.draw do
 
   get "sandbox/sub2"
 
+  get "sandbox/sub3"
+
   resources :admins
 
     # Gene operations

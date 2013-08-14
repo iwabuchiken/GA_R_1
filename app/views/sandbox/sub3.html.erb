@@ -1,0 +1,23 @@
+<h1>Sandbox#sub3</h1>
+<p>Find me in app/views/sandbox/sub3.html.erb</p>
+
+
+<%= form_tag(".", {method: "get"}) do %>
+
+	<!-- REF text_field http://railsdoc.com/references/text_field -->
+	<%#= text_field :time, :calculate,
+				{:size => '10',
+					:readonly => false,
+					:class => "focus"} %>
+	
+	<br />
+	
+	<!-- REF 'this.select()' http://stackoverflow.com/questions/4543236/onclick-select-all-text-in-text-field-rails answered Dec 28 '10 at 2:27 -->
+	<%= text_field :time, :calculate,
+				{:size => '20',
+					:readonly => false,
+					:onmouseover => 'this.select()',
+					:value => @time_label} %>
+	
+
+<% end %>
