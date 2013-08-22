@@ -1,15 +1,39 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Current generation:</b>
-  <%= @admin.current_generation %>
-</p>
+<table>
+  <tr>
+    <th>Key</th>
+    <th>Value</th>
+  </tr>
 
-<p>
-  <b>Num of gene elements:</b>
-  <%= @admin.num_of_gene_elements %>
-</p>
+  <tr>
+    <td class="admin_show_key">Id</td>
+    <td><%= @admin.id %></td>
+  </tr>
+  
+  <tr>
+    <td class="admin_show_key">Current generation</td>
+    <td><%= @admin.current_generation %></td>
+  </tr>
+  
+  <tr>
+    <td class="admin_show_key">Num of gene elements</b>
+    <td><%= @admin.num_of_gene_elements %></td>
+  </tr>
+  
+  <tr>
+    <td class="admin_show_key">Genes per generation</b>
+    <td><%= @admin.genes_per_generation %></td>
+  </tr>
+  
+  <tr>
+    <td class="admin_show_key">Value set</b>
+    <td><%= @admin.value_set %></td>
+  </tr>
+  
+</table>
 
+<br />
 
 <%= link_to 'Edit', edit_admin_path(@admin) %> |
 <%= link_to 'Back', admins_path %>
