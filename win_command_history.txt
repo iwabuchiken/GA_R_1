@@ -99,6 +99,10 @@ rails generate controller Sandbox main sub1 sub2 sub3 --skip
 
 g p origin master && g p heroku master
 
+[22/08/2013 21:33:41]----------------------------
+rails generate migration AddColumnValueSetToAdmin
+bundle exec rake db:migrate
+
 aa
 ============STORAGE============================
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130728043715) do
+ActiveRecord::Schema.define(:version => 20130822123536) do
 
   create_table "admins", :force => true do |t|
     t.integer  "current_generation"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20130728043715) do
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
     t.integer  "genes_per_generation"
+    t.string   "value_set"
   end
 
   create_table "genes", :force => true do |t|

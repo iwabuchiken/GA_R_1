@@ -1,3 +1,13 @@
+/*
+ * views\admins\show.html.erb
+ */
 table, th, td {
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
+	border: 2px solid green;
+}
+
+td.admin_show_key {
+	
+	width: 200px;
+	
 }
