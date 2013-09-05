@@ -152,12 +152,13 @@ class GenesController < ApplicationController
             
             gene = Gene.new
             
+            # Generationi
             gene.generation = admin.current_generation
-            gene.in_generation_serial = i + 1
             
-            ###############################
-            # Generate gene elements
-            ###############################
+            # In-generation serial
+            gene.in_generation_serial = i + 1
+
+            # Gene elements
             gene_elements = []
             
             num_of_gene_elements.times do
@@ -167,6 +168,8 @@ class GenesController < ApplicationController
             end
             
             gene.gene = gene_elements.join(" ")
+            
+            
             
             gene.save
             
