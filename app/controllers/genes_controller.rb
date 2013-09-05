@@ -169,7 +169,7 @@ class GenesController < ApplicationController
             
             gene.gene = gene_elements.join(" ")
             
-            
+            # Suited value
             
             gene.save
             

@@ -106,6 +106,8 @@ bundle exec rake db:migrate
 g p origin master && g p heroku master && heroku run rake db:migrate
 
 heroku open
+[05/09/2013 14:08:23]----------------------------
+rails generate migration AddColumnOptimalPercentageToAdmin
 
 aa
 ============STORAGE============================

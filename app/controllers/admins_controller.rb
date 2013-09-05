@@ -169,4 +169,23 @@ class AdminsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+private
+
+    def is_float(target)
+        
+        reg = /^\d+.*\d*$/
+        
+        if (target.chomp =~ reg) == 0
+            
+            return true
+            
+        else
+            
+            return false
+            
+        end
+        
+    end
+
 end
