@@ -103,6 +103,9 @@ g p origin master && g p heroku master
 rails generate migration AddColumnValueSetToAdmin
 bundle exec rake db:migrate
 
+[05/09/2013 14:08:23]----------------------------
+rails generate migration AddColumnOptimalPercentageToAdmin
+
 aa
 ============STORAGE============================
 
