@@ -1,3 +1,16 @@
 <%= link_to_unless_current 'Genes', genes_path %> | 
 <%= link_to_unless_current 'Admin', admins_path %> | 
 <%= link_to_unless_current 'Sandbox', :controller => 'sandbox', :action => 'main' %>
+
+<hr />
+
+<%= link_to\
+		"Heroku app site",
+		"http://ga-1.herokuapp.com/admins/1",
+		:target => "_blank" %> |
+		
+<%= link_to\
+		"Local site",
+		request.protocol + request.host_with_port + request.fullpath,
+		:target => "_blank" %>
+		
