@@ -126,15 +126,34 @@ class AdminsController < ApplicationController
     write_log(
             "admin[genes_per_generation] => #{params[:admin][:genes_per_generation]}",
             __FILE__, __LINE__)
-
+    
       
     respond_to do |format|
-      if @admin.update_attributes(params[:admin])
-        format.html { redirect_to @admin, notice: 'Admin was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @admin.errors, status: :unprocessable_entity }
+        if @admin.update_attributes(params[:admin])
+            
+            new_num_of_gene_elements = @admin.value_set.split(" ").length
+            
+            if @admin.update_attributes(
+                        :num_of_gene_elements => new_num_of_gene_elements)
+          
+                format.html { redirect_to @admin,
+                                notice: 'Admin was
+                                successfully updated(num_of_gene_elements, too).' }
+                format.json { head :no_content }
+
+                
+            else
+
+                format.html { redirect_to @admin,
+                                notice: 'Admin was
+                                successfully updated(Not num_of_gene_elements).' }
+                format.json { head :no_content }                
+                
+            end
+          
+        else
+            format.html { render action: "edit" }
+            format.json { render json: @admin.errors, status: :unprocessable_entity }
       end
     end
   end
