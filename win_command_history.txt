@@ -109,6 +109,8 @@ heroku open
 [05/09/2013 14:08:23]----------------------------
 rails generate migration AddColumnOptimalPercentageToAdmin
 
+heroku run rake db:migrate
+
 aa
 ============STORAGE============================
 
