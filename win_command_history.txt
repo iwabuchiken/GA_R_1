@@ -106,6 +106,15 @@ bundle exec rake db:migrate
 [05/09/2013 14:08:23]----------------------------
 rails generate migration AddColumnOptimalPercentageToAdmin
 
+[06/09/2013 12:08:41]----------------------------
+#REF http://www.rubylife.jp/rails/model/index8.html
+#bundle exec rake db:rollback
+
+#bundle exec rake db:migrate
+
+#REF http://stackoverflow.com/questions/4942622/how-to-rollback-database-migration-on-heroku answered Feb 9 '11 at 14:13
+heroku rake db:rollback
+
 aa
 ============STORAGE============================
 
