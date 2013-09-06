@@ -170,6 +170,8 @@ class GenesController < ApplicationController
             gene.gene = gene_elements.join(" ")
             
             # Suited value
+            optimal_percentage = admin.optimal_percentage
+            
             
             gene.save
             
