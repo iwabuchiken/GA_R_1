@@ -120,6 +120,8 @@ heroku run rake db:migrate
 #REF http://stackoverflow.com/questions/4942622/how-to-rollback-database-migration-on-heroku answered Feb 9 '11 at 14:13
 heroku rake db:rollback
 
+heroku run rake db:migrate
+
 aa
 ============STORAGE============================
 
