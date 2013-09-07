@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(:version => 20130905050910) do
     t.datetime "updated_at",           :null => false
     t.integer  "genes_per_generation"
     t.string   "value_set"
-    t.decimal  "optimal_percentage"
+    t.string   "optimal_percentage"
   end
 
   create_table "genes", :force => true do |t|
